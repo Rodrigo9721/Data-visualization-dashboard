@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #415f78;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    color: rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: red
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+. form input{
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 20px;
+    border:none;
+}
+
+dl{
+     width: 100%;
+     background: #fff;
+     padding: 5px 15px;
+  }
+dt, dd{
+     display: inline;
+  }
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.muybueno {background-color: #8CEC4E; font-size: 10px;} /* Green */
+.bueno {background-color: #FCFF33; font-size: 10px;} /* Blue */
+.regular {background-color: #FFBE33; font-size: 10px;} /* Orange */
+.riesgoso {background-color: #FF3333; font-size: 10px;} /* Red */
